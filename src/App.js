@@ -7,6 +7,8 @@ import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import NavBar from './Components/Navbar/NavBar';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   const handleInit = async(main)=>{
@@ -14,6 +16,8 @@ function App() {
   }
   return (
     <div className="App bg-slate-900">
+      <Toaster/>
+      <NavBar/>
       <Particles id='perticles' options={perticles} init={handleInit}/>
       <Home/>
       <Projects/>
