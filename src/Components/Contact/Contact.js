@@ -18,10 +18,10 @@ const Contact = () => {
       });
   };
   return (
-    <div  className='relative mx-10'>
+    <div id='contact' className='relative mx-10'>
        <h1 className='text-5xl text-center text-white font-semibold mt-10 mb-5'>Stay In Touch</h1>
-       <form ref={form} onSubmit={sendEmail} className='p-10 rounded-lg bg-slate-800 my-4 text-white'>
-        <div className='flex gap-2'>
+       <form ref={form} onSubmit={sendEmail} className='p-5 md:p-10 rounded-lg bg-slate-800 my-4 text-white'>
+        <div className='md:flex gap-2'>
         <input type="text" name='user_name' className='w-full p-2 rounded-lg bg-transparent basis-1/2 border' placeholder='Your Name' required/>
         <input type="text" name='user_email' className='w-full p-2 rounded-lg bg-transparent basis-1/2 border' placeholder='Your Email'required/>
         </div>

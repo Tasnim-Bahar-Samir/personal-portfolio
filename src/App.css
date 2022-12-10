@@ -6,7 +6,12 @@
 .img::-webkit-scrollbar {
   display: none;
 }
-
+html{
+  scroll-behavior: smooth;
+}
+.banner{
+  height: calc(100vh - 75px);
+}
 
 /* .App-logo {
   height: 40vmin;

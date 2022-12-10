@@ -38,11 +38,11 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="py-10 relative px-10">
+    <div id="projects" className="py-10 relative px-10">
       <h1 className="text-center text-5xl font-semibold text-white my-10">
         My Projects
       </h1>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
         {projects.map((project) => (
           <div
             key={project._id}

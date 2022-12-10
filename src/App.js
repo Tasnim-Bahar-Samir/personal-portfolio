@@ -17,7 +17,6 @@ function App() {
   return (
     <div className="App bg-slate-900">
       <Toaster/>
-      <NavBar/>
       <Particles id='perticles' options={perticles} init={handleInit}/>
       <Home/>
       <Projects/>

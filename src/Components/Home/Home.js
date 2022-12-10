@@ -1,11 +1,14 @@
 import React from 'react'
 import resume from '../../assets/resume/Tasnim Bahar Samir.Resume.pdf'
+import NavBar from '../Navbar/NavBar'
 
 const Home = () => {
   return (
-    <div className='text-white home relative h-screen flex items-center justify-center'>
+    <div className='banner'>
+    <NavBar/>
+    <div className='text-white home relative h-full flex items-center justify-center p-4'>
         <div>
-        <h1 className='text-6xl'>Hi, <br /> I'm Tasnim Bahar Sameer</h1>
+        <h1 className='text-6xl'>Hi, <br /> I'm Tasnim Bahar Samir</h1>
         <p className='text-xl mt-2'>Mern Stack Web Developer</p>
         
         <div className='flex gap-4 mt-3'>
@@ -13,6 +16,7 @@ const Home = () => {
         <a href='#contact' className='px-3 py-1 rounded-sm border-2 border-white'>Get in touch</a>
         </div>
         </div>
+    </div>
     </div>
   )
 }

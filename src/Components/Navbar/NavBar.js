@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { FaToggleOff, FaToggleOn, FaUserAlt } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import './Navbar.css'
@@ -7,7 +6,7 @@ import './Navbar.css'
 const NavBar = () => {
     const [open,setOpen] = useState(false)
   return (
-    <div className='relative nav'>
+    <div className='sticky top-0 nav bg-slate-900 z-50'>
         <div
       className={`flex items-center justify-between text-white bg-slate-900 px-2 md:px-8 shadow-xl mb-2 md:py-5 py-2"
       }`}
@@ -23,7 +22,7 @@ const NavBar = () => {
             alt=""
           /> */}
           <p>
-            Code<span className=" text-orange-600">Lab</span>
+            Sa<span className=" text-orange-600">Mir</span>
           </p>
         </a>
       </div>
@@ -36,22 +35,21 @@ const NavBar = () => {
           <a
             onClick={() => setOpen(false)}
             className="hover:text-orange-600"
-            href='#projects'
+            href='#'
           >
             Home
           </a>
           <a
-            href='#'
+            href='#projects'
             onClick={() => setOpen(false)}
             className="hover:text-orange-600"
-            to="/faq"
           >
             Projects
           </a>
           <a
+            href='#contact'
             onClick={() => setOpen(false)}
             className="hover:text-orange-600"
-            to="/blog"
           >
             Contact
           </a>
