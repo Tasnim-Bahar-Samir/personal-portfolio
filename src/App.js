@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Particles from 'react-tsparticles';
+import {loadFull} from 'tsparticles'
+import perticles from './Utilities/perticles';
 
 function App() {
+  const handleInit = async(main)=>{
+    await loadFull(main)
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Particles id='perticles' options={perticles} init={handleInit}/>
+      
     </div>
   );
 }
