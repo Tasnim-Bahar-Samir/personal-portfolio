@@ -38,7 +38,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="mt-10 relative ">
+    <div className="py-10 relative px-10">
       <h1 className="text-center text-5xl font-semibold text-white my-10">
         My Projects
       </h1>
@@ -46,7 +46,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project._id}
-            className="border  rounded-xl text-white bg-slate-600"
+            className= "shadow-2xl rounded-xl text-white bg-slate-800"
           >
             <div className="h-48 overflow-y-scroll scroll-m-0 img p-1">
               <img className=" rounded-md  w-full" src={project.img} alt="" />
