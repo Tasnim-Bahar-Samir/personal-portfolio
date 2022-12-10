@@ -3,6 +3,9 @@
   min-height: 100vh;
 
 }
+.img::-webkit-scrollbar {
+  display: none;
+}
 
 
 /* .App-logo {

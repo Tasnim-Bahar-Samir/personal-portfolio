@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../../assets/resume/Tasnim Bahar Samir.Resume.pdf'
 
 const Home = () => {
   return (
@@ -8,8 +9,8 @@ const Home = () => {
         <p className='text-xl mt-2'>Mern Stack Web Developer</p>
         
         <div className='flex gap-4 mt-3'>
-        <button className='px-3 py-1 rounded-sm border-2 border-white hover:text-black hover:bg-white'>Resume</button>
-        <button className='px-3 py-1 rounded-sm border-2 border-white'>Get in touch</button>
+        <a href={resume} download className='px-3 py-1 rounded-sm border-2 border-white hover:text-black hover:bg-white'>Download Resume</a>
+        <a href='#contact' className='px-3 py-1 rounded-sm border-2 border-white'>Get in touch</a>
         </div>
         </div>
     </div>
