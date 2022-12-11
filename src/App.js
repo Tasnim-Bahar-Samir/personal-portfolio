@@ -10,6 +10,7 @@ import Footer from './Components/Footer/Footer';
 import NavBar from './Components/Navbar/NavBar';
 import { Toaster } from 'react-hot-toast';
 import About from './Components/About/About';
+import Skills from './Components/Skills/Skills';
 
 function App() {
   const handleInit = async(main)=>{
@@ -22,6 +23,7 @@ function App() {
       <Home/>
       <About/>
       <Projects/>
+      <Skills/>
       <Contact/>
       <Footer/>
     </div>

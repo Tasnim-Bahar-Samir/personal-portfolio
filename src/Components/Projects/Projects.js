@@ -38,7 +38,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div id="projects" className="py-10 relative px-10">
+    <div id="projects" className="py-10 relative mx-4 md:mx-10">
       <h1 className="text-center text-5xl font-semibold text-white my-10">
         My Projects
       </h1>

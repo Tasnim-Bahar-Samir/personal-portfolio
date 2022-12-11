@@ -6,9 +6,7 @@
         no-repeat;
     transition:0.5s;
 }
-.basic-3 {
-    
-  }
+
   .nav a:hover {
     --d: 100%;
   }
