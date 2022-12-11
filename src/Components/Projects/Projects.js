@@ -1,5 +1,4 @@
 import React from "react";
-import Project from "./Project";
 import { AiFillGithub } from "react-icons/ai";
 import { GoLinkExternal } from "react-icons/go";
 
@@ -39,7 +38,7 @@ const Projects = () => {
   ];
   return (
     <div id="projects" className="py-10 relative mx-4 md:mx-10">
-      <h1 className="text-center text-5xl font-semibold text-white my-10">
+      <h1 className="text-center text-4xl font-semibold text-white my-10">
         My Projects
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">

@@ -13,7 +13,7 @@ const NavBar = () => {
     >
       <div className="">
         <a
-          href='#Home'
+          href='#'
           className="normal-case text-xl md:text-3xl font-mono flex items-center"
         >
           {/* <img

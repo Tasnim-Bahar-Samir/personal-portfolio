@@ -20,11 +20,14 @@ function App() {
     <div className="App bg-slate-900">
       <Toaster/>
       <Particles id='perticles' options={perticles} init={handleInit}/>
+      <div className='max-w-7xl mx-auto'>
       <Home/>
       <About/>
       <Projects/>
       <Skills/>
       <Contact/>
+      </div>
+      
       <Footer/>
     </div>
   );

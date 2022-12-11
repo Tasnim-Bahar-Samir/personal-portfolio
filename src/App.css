@@ -10,7 +10,15 @@ html{
   scroll-behavior: smooth;
 }
 .banner{
-  height: calc(100vh);
+  height: calc(100vh - 75px);
+}
+.social-icons::after{
+  content: '';
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 3rem;
+  background: orangered;
 }
 .imgContainer{
   width: 300px;

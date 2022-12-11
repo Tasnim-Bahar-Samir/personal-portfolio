@@ -29,10 +29,10 @@ export default{
     },
     particles: {
         color: {
-            value: "#ffffff",
+            value: "#f8a283",
         },
         links: {
-            color: "#ffffff",
+            color: "#f8a283",
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -48,7 +48,7 @@ export default{
                 default: "bounce",
             },
             random: false,
-            speed: 3,
+            speed: 2,
             straight: false,
         },
         number: {
