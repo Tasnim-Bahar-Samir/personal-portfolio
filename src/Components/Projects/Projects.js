@@ -46,7 +46,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project._id}
-            className= "shadow-2xl rounded-xl text-white bg-slate-800"
+            className= "card_shadow rounded-xl text-white bg-slate-800"
           >
             <div className="h-48 overflow-y-scroll scroll-m-0 img p-1">
               <img className=" rounded-md  w-full" src={project.img} alt="" />

@@ -9,6 +9,7 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import NavBar from './Components/Navbar/NavBar';
 import { Toaster } from 'react-hot-toast';
+import About from './Components/About/About';
 
 function App() {
   const handleInit = async(main)=>{
@@ -19,6 +20,7 @@ function App() {
       <Toaster/>
       <Particles id='perticles' options={perticles} init={handleInit}/>
       <Home/>
+      <About/>
       <Projects/>
       <Contact/>
       <Footer/>

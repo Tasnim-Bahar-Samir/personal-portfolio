@@ -1,4 +1,14 @@
 .nav a{
     cursor: pointer;
-    
+    background: 
+        linear-gradient(currentColor 0 0) 
+        bottom /var(--d, 0) 3px 
+        no-repeat;
+    transition:0.5s;
 }
+.basic-3 {
+    
+  }
+  .nav a:hover {
+    --d: 100%;
+  }
