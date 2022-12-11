@@ -7,7 +7,6 @@ import { AiOutlineArrowDown, AiOutlineArrowRight } from 'react-icons/ai';
 const Home = () => {
   return (
     <div className='h-full'>
-    <NavBar/>
     <div className='text-white home relative  banner flex items-center justify-center p-4'>
         <div>
           <h5 className='text-2xl my-2'>Hi There,</h5>
@@ -29,7 +28,7 @@ const Home = () => {
         
         <div className='flex gap-4 mt-3'>
         <a href={resume} download className='px-3 py-1 rounded-sm border-2 border-white hover:text-black hover:bg-white'>Download Resume</a>
-        <a href='#contact' className='px-3 button py-1 rounded-sm border-2 border-white'>Get in touch</a>
+        <a href='#contact' className='px-3 button py-1 rounded-sm bg-orange-600 border-white'>Get in touch</a>
         </div>
         </div>
       <div className=' absolute left-14 bottom-40 flex flex-col items-center gap-5 transition-all social-icons text-orange-500'>

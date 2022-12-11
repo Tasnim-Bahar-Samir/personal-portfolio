@@ -13,7 +13,7 @@ const Projects = () => {
       img: img1,
       name: "ResaleCar.BD",
       details:
-        "This website is about buy and sell used car. Implented admin,seller and buyer dashboard. Displaying data according to user role.If user oginas byer he/she will be able to order product and will have access to my orders route.If user login as seller ,will get the access to publish product and able to manage his own product.Admin is allowed to manage all buyers and all sellers.",
+        "This website is about buy and sell used car. Implented admin,seller and buyer dashboard. Buyer can buy product and seller can publish a new product.Crud operations, Stripe payment gateway.",
       gitHub: "https://github.com/Tasnim-Bahar-Samir/resaleCar.BD-client-repo",
       live: "https://resale-products.web.app/",
     },
@@ -22,7 +22,7 @@ const Projects = () => {
       img: img2,
       name: "Codelab-Online Courses",
       details:
-        "This website is about buy and sell used car. Implented admin,seller and buyer dashboard. Displaying data according to user role.If user oginas byer he/she will be able to order product and will have access to my orders route.If user login as seller ,will get the access to publish product and able to manage his own product.Admin is allowed to manage all buyers and all sellers.",
+        "Implemented authentication system.Users can see course details and can download a pdf of details.Login users can see their profile and can visit the premium access page.",
       gitHub: "https://github.com/Tasnim-Bahar-Samir/codeLab-onlineCourse-client",
       live: "https://codelab-online-learning.web.app/",
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       img: img3,
       name: "Phroto-Review Services",
       details:
-        "This website is about buy and sell used car. Implented admin,seller and buyer dashboard. Displaying data according to user role.If user oginas byer he/she will be able to order product and will have access to my orders route.If user login as seller ,will get the access to publish product and able to manage his own product.Admin is allowed to manage all buyers and all sellers.",
+        "This website shows some services of a photographer.Users can see service details and can add reviews about the service. Login users can see their reviews and they can delete, edit and update their reviews.",
       gitHub: "https://github.com/Tasnim-Bahar-Samir/phroto-review-services-client-repo",
       live: "https://photography-review-62e7e.web.app/",
     },
@@ -47,12 +47,12 @@ const Projects = () => {
             key={project._id}
             className= "card_shadow rounded-xl text-white bg-slate-800"
           >
-            <div className="h-48 overflow-y-scroll scroll-m-0 img p-1">
+            <div className="h-52 overflow-y-scroll scroll-m-0 img p-1">
               <img className=" rounded-md  w-full" src={project.img} alt="" />
             </div>
             <div className="p-4">
-              <h5 className="text-xl font-semibold">{project.name}</h5>
-              {/* <p>{project.details}</p> */}
+              <h5 className="text-xl font-semibold text-orange-600">{project.name}</h5>
+              <p className="text-slate-200 text-sm my-2">{project.details}</p>
               <div className="flex justify-between mt-4">
                 <a
                   className="px-2 py-1 rounded-sm border-2 flex items-center"

@@ -21,6 +21,7 @@ function App() {
       <Toaster/>
       <Particles id='perticles' options={perticles} init={handleInit}/>
       <div className='max-w-7xl mx-auto'>
+      <NavBar/>
       <Home/>
       <About/>
       <Projects/>
