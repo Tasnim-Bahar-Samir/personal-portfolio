@@ -38,10 +38,12 @@ const Projects = () => {
   ];
   return (
     <div id="projects" className="py-10 relative mx-4 md:mx-10">
-      <h1 className="text-center text-4xl font-semibold text-white my-10">
+      <h1 className="text-center text-4xl font-semibold text-white">
         My Projects
       </h1>
+      <p className="text-center text-orange-600 mb-10">See some of my projects</p>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+        
         {projects.map((project) => (
           <div
             key={project._id}

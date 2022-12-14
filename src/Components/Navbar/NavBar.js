@@ -29,7 +29,7 @@ const NavBar = () => {
       <div onBlur={()=>setOpen(false)} className="flex gap-4 lg:gap-6 pr-5 text-md">
         <div 
           className={` z-10 w-full bg-slate-900 flex flex-col items-center md:flex-row gap-4 lg:gap-6 absolute md:static transition-all ease-in-out left-0 ${
-            open ? "top-12 " : "top-[-150px]"
+            open ? "top-8 " : "top-[-250px]"
           }`}
         >
           <a
@@ -40,11 +40,32 @@ const NavBar = () => {
             Home
           </a>
           <a
+            href='#about'
+            onClick={() => setOpen(false)}
+            className="hover:text-orange-600"
+          >
+            About
+          </a>
+          <a
             href='#projects'
             onClick={() => setOpen(false)}
             className="hover:text-orange-600"
           >
             Projects
+          </a>
+          <a
+            href='#skills'
+            onClick={() => setOpen(false)}
+            className="hover:text-orange-600"
+          >
+            Skills
+          </a>
+          <a
+            href='#blogs'
+            onClick={() => setOpen(false)}
+            className="hover:text-orange-600"
+          >
+            Blogs
           </a>
           <a
             href='#contact'

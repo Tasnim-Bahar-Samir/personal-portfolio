@@ -11,6 +11,7 @@ import NavBar from './Components/Navbar/NavBar';
 import { Toaster } from 'react-hot-toast';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
+import Blogs from './Components/Blogs/Blogs';
 
 function App() {
   const handleInit = async(main)=>{
@@ -26,6 +27,7 @@ function App() {
       <About/>
       <Projects/>
       <Skills/>
+      <Blogs/>
       <Contact/>
       </div>
       

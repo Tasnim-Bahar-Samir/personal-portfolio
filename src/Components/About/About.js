@@ -3,7 +3,7 @@ import me from '../../assets/me/Untitled design (1).png'
 
 const About = () => {
   return (
-    <div className='text-white mx-4 md:mx-10 '>
+    <div id='about' className='text-white mx-4 md:mx-10 '>
         <h1 className='text-4xl text-white my-3 text-center'>About Me</h1>
         <div className=' flex-col-reverse md:flex-row flex justify-between items-center'>
         <div className='md:w-2/3 w-full mt-2'>

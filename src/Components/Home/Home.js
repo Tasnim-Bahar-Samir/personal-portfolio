@@ -31,13 +31,13 @@ const Home = () => {
         <a href='#contact' className='px-3 button py-1 rounded-sm bg-orange-600 border-white'>Get in touch</a>
         </div>
         </div>
-      <div className=' absolute left-14 bottom-40 flex flex-col items-center gap-5 transition-all social-icons text-orange-500'>
+      <div className=' hidden absolute left-14 bottom-40 md:flex flex-col items-center gap-5 transition-all social-icons text-orange-500'>
       <a className='text-2xl hover:text-orange-600' href="https://github.com/Tasnim-Bahar-Samir" target='_blank'><BsGithub/></a>
         <a className='text-2xl hover:text-orange-600' href="https://www.linkedin.com/in/tasnim-bahar-sameer/" target='_blank'><BsLinkedin/></a>
         <a href='https://www.facebook.com/profile.php?id=100045078463296' target='_blank' className='text-2xl hover:text-orange-600'><BsFacebook/></a>
     </div>
 
-    <div className='absolute right-14 bottom-44 text-orange-500 cursor-pointer'>
+    <div className='hidden md:block absolute right-14 bottom-44 text-orange-500 cursor-pointer'>
       <a href='#contact' className='flex text-sm rotate-90 items-center'>Scroll Down <AiOutlineArrowRight className='ml-3'/></a>
     </div>
     </div>
